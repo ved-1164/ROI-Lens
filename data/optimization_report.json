@@ -1,0 +1,558 @@
+{
+    "global_historical_conversions": 3292.98,
+    "global_scaled_historical_conversions": 4134.24,
+    "global_optimized_conversions": 17504.85,
+    "global_efficiency_gain_pct": 323.41,
+    "brands": {
+        "Brand A": {
+            "brand": "Brand A",
+            "historical_spend_total": 7.1237,
+            "historical_conversions_total": 304.99,
+            "scaled_historical_conversions_total": 394.68,
+            "optimized_conversions_total": 1557.86,
+            "efficiency_gain_pct": 294.72,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 3.8435,
+                    "historical_conversions": 41.82,
+                    "alpha": 26.508,
+                    "scaled_historical_spend": 5.3954,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 1.6813,
+                    "historical_conversions": 60.66,
+                    "alpha": 61.5025,
+                    "scaled_historical_spend": 2.3601,
+                    "optimized_spend": 0.5625,
+                    "expected_optimized_conversions": 27.45
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 1.1657,
+                    "historical_conversions": 32.79,
+                    "alpha": 42.4332,
+                    "scaled_historical_spend": 1.6364,
+                    "optimized_spend": 0.0781,
+                    "expected_optimized_conversions": 3.19
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 0.2166,
+                    "historical_conversions": 41.36,
+                    "alpha": 210.9557,
+                    "scaled_historical_spend": 0.3041,
+                    "optimized_spend": 4.3594,
+                    "expected_optimized_conversions": 354.16
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 0.2166,
+                    "historical_conversions": 128.36,
+                    "alpha": 654.6973,
+                    "scaled_historical_spend": 0.3041,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 1173.06
+                }
+            ]
+        },
+        "Brand B": {
+            "brand": "Brand B",
+            "historical_spend_total": 6.1743,
+            "historical_conversions_total": 312.0,
+            "scaled_historical_conversions_total": 430.76,
+            "optimized_conversions_total": 5642.78,
+            "efficiency_gain_pct": 1209.97,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 1.6157,
+                    "historical_conversions": 38.14,
+                    "alpha": 39.6659,
+                    "scaled_historical_spend": 2.6168,
+                    "optimized_spend": 0.2009,
+                    "expected_optimized_conversions": 7.26
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.7383,
+                    "historical_conversions": 63.6,
+                    "alpha": 115.0283,
+                    "scaled_historical_spend": 1.1958,
+                    "optimized_spend": 2.4825,
+                    "expected_optimized_conversions": 143.53
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 0.9891,
+                    "historical_conversions": 32.0,
+                    "alpha": 46.5331,
+                    "scaled_historical_spend": 1.602,
+                    "optimized_spend": 0.4088,
+                    "expected_optimized_conversions": 15.95
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 0.0167,
+                    "historical_conversions": 49.67,
+                    "alpha": 2999.0179,
+                    "scaled_historical_spend": 0.027,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 5373.52
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 2.8145,
+                    "historical_conversions": 128.59,
+                    "alpha": 96.048,
+                    "scaled_historical_spend": 4.5584,
+                    "optimized_spend": 1.9078,
+                    "expected_optimized_conversions": 102.52
+                }
+            ]
+        },
+        "Brand C": {
+            "brand": "Brand C",
+            "historical_spend_total": 8.4974,
+            "historical_conversions_total": 327.01,
+            "scaled_historical_conversions_total": 361.16,
+            "optimized_conversions_total": 391.87,
+            "efficiency_gain_pct": 8.51,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 1.1599,
+                    "historical_conversions": 43.82,
+                    "alpha": 56.9045,
+                    "scaled_historical_spend": 1.365,
+                    "optimized_spend": 1.488,
+                    "expected_optimized_conversions": 51.87
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.9752,
+                    "historical_conversions": 67.98,
+                    "alpha": 99.8722,
+                    "scaled_historical_spend": 1.1476,
+                    "optimized_spend": 3.3667,
+                    "expected_optimized_conversions": 147.21
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 0.9846,
+                    "historical_conversions": 37.38,
+                    "alpha": 54.5361,
+                    "scaled_historical_spend": 1.1587,
+                    "optimized_spend": 1.3845,
+                    "expected_optimized_conversions": 47.39
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 1.7627,
+                    "historical_conversions": 46.88,
+                    "alpha": 46.1323,
+                    "scaled_historical_spend": 2.0744,
+                    "optimized_spend": 1.017,
+                    "expected_optimized_conversions": 32.37
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 3.615,
+                    "historical_conversions": 130.95,
+                    "alpha": 85.6267,
+                    "scaled_historical_spend": 4.2542,
+                    "optimized_spend": 2.7438,
+                    "expected_optimized_conversions": 113.04
+                }
+            ]
+        },
+        "Brand D": {
+            "brand": "Brand D",
+            "historical_spend_total": 7.2959,
+            "historical_conversions_total": 332.0,
+            "scaled_historical_conversions_total": 406.11,
+            "optimized_conversions_total": 487.02,
+            "efficiency_gain_pct": 19.93,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 1.1198,
+                    "historical_conversions": 42.19,
+                    "alpha": 56.1544,
+                    "scaled_historical_spend": 1.5348,
+                    "optimized_spend": 1.0515,
+                    "expected_optimized_conversions": 40.35
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 3.0788,
+                    "historical_conversions": 68.03,
+                    "alpha": 48.3923,
+                    "scaled_historical_spend": 4.2199,
+                    "optimized_spend": 0.7679,
+                    "expected_optimized_conversions": 27.57
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 0.4888,
+                    "historical_conversions": 35.84,
+                    "alpha": 90.0569,
+                    "scaled_historical_spend": 0.67,
+                    "optimized_spend": 2.2902,
+                    "expected_optimized_conversions": 107.25
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 1.1241,
+                    "historical_conversions": 50.98,
+                    "alpha": 67.6712,
+                    "scaled_historical_spend": 1.5407,
+                    "optimized_spend": 1.4723,
+                    "expected_optimized_conversions": 61.25
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 1.4844,
+                    "historical_conversions": 134.96,
+                    "alpha": 148.3026,
+                    "scaled_historical_spend": 2.0346,
+                    "optimized_spend": 4.4181,
+                    "expected_optimized_conversions": 250.59
+                }
+            ]
+        },
+        "Brand E": {
+            "brand": "Brand E",
+            "historical_spend_total": 7.3681,
+            "historical_conversions_total": 351.99,
+            "scaled_historical_conversions_total": 445.8,
+            "optimized_conversions_total": 2923.14,
+            "efficiency_gain_pct": 555.71,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 3.3059,
+                    "historical_conversions": 48.37,
+                    "alpha": 33.1305,
+                    "scaled_historical_spend": 4.4868,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.4788,
+                    "historical_conversions": 74.36,
+                    "alpha": 190.0668,
+                    "scaled_historical_spend": 0.6498,
+                    "optimized_spend": 4.4581,
+                    "expected_optimized_conversions": 322.56
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 1.552,
+                    "historical_conversions": 40.51,
+                    "alpha": 43.2394,
+                    "scaled_historical_spend": 2.1064,
+                    "optimized_spend": 0.2415,
+                    "expected_optimized_conversions": 9.35
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 1.9292,
+                    "historical_conversions": 48.67,
+                    "alpha": 45.2858,
+                    "scaled_historical_spend": 2.6183,
+                    "optimized_spend": 0.3003,
+                    "expected_optimized_conversions": 11.89
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 0.1022,
+                    "historical_conversions": 140.08,
+                    "alpha": 1439.5501,
+                    "scaled_historical_spend": 0.1387,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 2579.33
+                }
+            ]
+        },
+        "Brand F": {
+            "brand": "Brand F",
+            "historical_spend_total": 7.8227,
+            "historical_conversions_total": 339.99,
+            "scaled_historical_conversions_total": 405.13,
+            "optimized_conversions_total": 2607.78,
+            "efficiency_gain_pct": 543.68,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 0.1773,
+                    "historical_conversions": 46.27,
+                    "alpha": 283.476,
+                    "scaled_historical_spend": 0.2266,
+                    "optimized_spend": 3.6061,
+                    "expected_optimized_conversions": 432.98
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.0638,
+                    "historical_conversions": 70.63,
+                    "alpha": 1142.0043,
+                    "scaled_historical_spend": 0.0816,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 2046.2
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 2.8193,
+                    "historical_conversions": 35.36,
+                    "alpha": 26.3867,
+                    "scaled_historical_spend": 3.604,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 3.1957,
+                    "historical_conversions": 48.86,
+                    "alpha": 34.0711,
+                    "scaled_historical_spend": 4.0852,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 1.5666,
+                    "historical_conversions": 138.87,
+                    "alpha": 147.3293,
+                    "scaled_historical_spend": 2.0026,
+                    "optimized_spend": 1.3939,
+                    "expected_optimized_conversions": 128.61
+                }
+            ]
+        },
+        "Brand G": {
+            "brand": "Brand G",
+            "historical_spend_total": 6.9138,
+            "historical_conversions_total": 327.01,
+            "scaled_historical_conversions_total": 417.47,
+            "optimized_conversions_total": 724.23,
+            "efficiency_gain_pct": 73.48,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 0.2682,
+                    "historical_conversions": 42.16,
+                    "alpha": 177.4421,
+                    "scaled_historical_spend": 0.3879,
+                    "optimized_spend": 3.6385,
+                    "expected_optimized_conversions": 272.26
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 3.0083,
+                    "historical_conversions": 63.11,
+                    "alpha": 45.4563,
+                    "scaled_historical_spend": 4.3512,
+                    "optimized_spend": 0.1883,
+                    "expected_optimized_conversions": 7.84
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 1.5138,
+                    "historical_conversions": 34.18,
+                    "alpha": 37.0798,
+                    "scaled_historical_spend": 2.1895,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 0.3397,
+                    "historical_conversions": 53.0,
+                    "alpha": 181.2302,
+                    "scaled_historical_spend": 0.4913,
+                    "optimized_spend": 3.7376,
+                    "expected_optimized_conversions": 281.91
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 1.7838,
+                    "historical_conversions": 134.56,
+                    "alpha": 131.4298,
+                    "scaled_historical_spend": 2.5801,
+                    "optimized_spend": 2.4357,
+                    "expected_optimized_conversions": 162.21
+                }
+            ]
+        },
+        "Brand H": {
+            "brand": "Brand H",
+            "historical_spend_total": 6.1032,
+            "historical_conversions_total": 349.0,
+            "scaled_historical_conversions_total": 495.82,
+            "optimized_conversions_total": 890.58,
+            "efficiency_gain_pct": 79.62,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 2.9936,
+                    "historical_conversions": 43.92,
+                    "alpha": 31.7182,
+                    "scaled_historical_spend": 4.905,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.3735,
+                    "historical_conversions": 75.31,
+                    "alpha": 237.2998,
+                    "scaled_historical_spend": 0.612,
+                    "optimized_spend": 4.1816,
+                    "expected_optimized_conversions": 390.39
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 1.3547,
+                    "historical_conversions": 32.58,
+                    "alpha": 38.0424,
+                    "scaled_historical_spend": 2.2197,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 0.4659,
+                    "historical_conversions": 50.82,
+                    "alpha": 132.8734,
+                    "scaled_historical_spend": 0.7634,
+                    "optimized_spend": 1.9013,
+                    "expected_optimized_conversions": 141.53
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 0.9155,
+                    "historical_conversions": 146.37,
+                    "alpha": 225.192,
+                    "scaled_historical_spend": 1.5,
+                    "optimized_spend": 3.9171,
+                    "expected_optimized_conversions": 358.67
+                }
+            ]
+        },
+        "Brand I": {
+            "brand": "Brand I",
+            "historical_spend_total": 7.64,
+            "historical_conversions_total": 329.0,
+            "scaled_historical_conversions_total": 390.63,
+            "optimized_conversions_total": 753.98,
+            "efficiency_gain_pct": 93.02,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 0.1524,
+                    "historical_conversions": 38.58,
+                    "alpha": 271.9837,
+                    "scaled_historical_spend": 0.1995,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 487.33
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 2.6043,
+                    "historical_conversions": 67.78,
+                    "alpha": 52.8653,
+                    "scaled_historical_spend": 3.4088,
+                    "optimized_spend": 0.6845,
+                    "expected_optimized_conversions": 27.57
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 1.1126,
+                    "historical_conversions": 32.87,
+                    "alpha": 43.9486,
+                    "scaled_historical_spend": 1.4563,
+                    "optimized_spend": 0.4003,
+                    "expected_optimized_conversions": 14.8
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 2.0915,
+                    "historical_conversions": 53.74,
+                    "alpha": 47.6141,
+                    "scaled_historical_spend": 2.7376,
+                    "optimized_spend": 0.5171,
+                    "expected_optimized_conversions": 19.85
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 1.6792,
+                    "historical_conversions": 136.03,
+                    "alpha": 138.0289,
+                    "scaled_historical_spend": 2.1979,
+                    "optimized_spend": 3.398,
+                    "expected_optimized_conversions": 204.44
+                }
+            ]
+        },
+        "Brand J": {
+            "brand": "Brand J",
+            "historical_spend_total": 7.7937,
+            "historical_conversions_total": 319.99,
+            "scaled_historical_conversions_total": 386.7,
+            "optimized_conversions_total": 1525.6,
+            "efficiency_gain_pct": 294.52,
+            "allocations": [
+                {
+                    "channel": "Instagram",
+                    "historical_spend": 6.021,
+                    "historical_conversions": 43.52,
+                    "alpha": 22.3305,
+                    "scaled_historical_spend": 7.7255,
+                    "optimized_spend": 0.0,
+                    "expected_optimized_conversions": 0.0
+                },
+                {
+                    "channel": "Google Search",
+                    "historical_spend": 0.2188,
+                    "historical_conversions": 65.22,
+                    "alpha": 329.6157,
+                    "scaled_historical_spend": 0.2807,
+                    "optimized_spend": 3.3443,
+                    "expected_optimized_conversions": 484.16
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "historical_spend": 0.5152,
+                    "historical_conversions": 35.05,
+                    "alpha": 84.3466,
+                    "scaled_historical_spend": 0.661,
+                    "optimized_spend": 0.1116,
+                    "expected_optimized_conversions": 8.92
+                },
+                {
+                    "channel": "YouTube",
+                    "historical_spend": 0.1093,
+                    "historical_conversions": 49.34,
+                    "alpha": 475.6617,
+                    "scaled_historical_spend": 0.1402,
+                    "optimized_spend": 5.0,
+                    "expected_optimized_conversions": 852.27
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "historical_spend": 0.9294,
+                    "historical_conversions": 126.86,
+                    "alpha": 193.0284,
+                    "scaled_historical_spend": 1.1925,
+                    "optimized_spend": 1.5441,
+                    "expected_optimized_conversions": 180.25
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,237 @@
+Channel,User,Uploaded Count,Uploaded Duration (hh:mm:ss),Cost Savings ($),Estimated ROI (%),Human Hours Saved
+A,Chandan,247,50:09:11,46305,69.84,1286.2
+B,Auto Upload,176,39:09:40,7920,0.0,220.0
+A,Sandeep Belaki,133,18:45:34,25200,21.35,700.0
+A,Adarsh (Frammer),104,11:26:06,8190,43.48,227.5
+B,Nitesh,103,28:38:27,21915,0.0,608.8
+C,Nitesh,99,24:12:24,16515,0.0,458.8
+B,QA-Purushottam,93,9:46:43,17640,0.0,490.0
+C,QA-Purushottam,91,13:37:39,15570,11.49,432.5
+B,Trivendra,91,43:31:44,18270,0.0,507.5
+B,Chandan,87,23:34:44,18360,9.76,510.0
+A,vikas.s@moolya.com,85,17:59:38,14445,0.0,401.2
+A,Anamika Singh,84,20:17:10,18450,19.42,512.5
+A,Ashween,80,9:33:01,3780,0.0,105.0
+A,Abhishek,74,6:45:21,6480,82.19,180.0
+A,QA-Purushottam,72,5:00:33,12150,147.06,337.5
+B,Subhesh,70,11:57:26,6570,108.11,182.5
+B,AB,67,11:30:08,10215,0.0,283.8
+D,Chandan,67,8:39:38,12330,0.0,342.5
+A,Neha,67,8:44:16,9045,137.93,251.2
+C,vinay singh,66,16:24:56,11115,0.0,308.8
+A,Trivendra,64,14:21:36,13770,12.99,382.5
+B,Abhishek,54,8:10:16,4365,0.0,121.2
+A,Dheeraj Pareek(QA theveritycorp.com),53,5:04:27,6975,50.96,193.8
+A,Vaibhav,52,15:39:10,6705,0.0,186.2
+A,Prithviraj,51,4:32:25,3105,112.68,86.2
+C,Divyanshu Dutta Roy,50,23:53:13,12015,0.0,333.8
+A,Subhesh,50,2:38:35,4050,86.96,112.5
+B,vinay singh,46,9:16:32,8145,0.0,226.2
+E,Chandan,46,8:52:23,10395,0.0,288.8
+B,Rakesh (devops@frammer.com),45,8:14:13,3330,0.0,92.5
+B,Sandeep Belaki,44,8:01:47,7515,94.67,208.8
+B,vikas.s@moolya.com,42,14:38:36,6660,26.67,185.0
+D,Dheeraj Pareek(QA theveritycorp.com),42,2:52:50,5175,0.0,143.8
+A,Subhash (moolya),40,3:21:53,5355,0.0,148.8
+C,vikas.s@moolya.com,38,14:03:30,7920,0.0,220.0
+H,vikas.s@moolya.com,37,3:59:02,7605,23.39,211.2
+C,Abhishek,36,2:11:35,3330,263.16,92.5
+C,Subhesh,35,5:14:23,5265,33.61,146.2
+C,Alok Rai,35,1:56:19,1800,0.0,50.0
+C,QA-Bhargavi,34,2:36:22,4995,35.4,138.8
+D,Shadab,34,2:43:22,3870,0.0,107.5
+C,AB,33,16:27:45,6120,0.0,170.0
+C,QA-Ankith ,32,3:07:17,3780,0.0,105.0
+A,Deepika Uniyal (QA testaing.com),32,6:56:10,8910,0.0,247.5
+A,Alok Rai,31,1:57:32,3195,54.79,88.8
+C,Abhishek Sri,29,6:43:07,5085,34.78,141.2
+B,Divyanshu Dutta Roy,28,4:50:01,3690,0.0,102.5
+G,vinay singh,28,4:56:06,2790,0.0,77.5
+B,Dheeraj Pareek(QA theveritycorp.com),28,6:21:28,5085,0.0,141.2
+A,Harish,27,0:59:25,3690,285.71,102.5
+B,QA-Bhargavi,26,4:17:01,5085,0.0,141.2
+E,vikas.s@moolya.com,26,3:42:30,4950,35.71,137.5
+C,Sandeep Belaki,26,4:24:01,3915,0.0,108.8
+B,Abhishek Sri,26,15:12:26,8955,0.0,248.8
+B,Subhash (moolya),25,3:37:53,4140,0.0,115.0
+B,Shadab,25,6:31:08,3330,0.0,92.5
+B,Neha,25,4:28:42,4410,120.0,122.5
+C,Vaibhav,25,6:19:12,3150,0.0,87.5
+D,Neha,23,2:42:21,3420,0.0,95.0
+E,QA-Purushottam,22,1:48:22,4275,82.47,118.8
+B,Ravi Pratap Rai,22,0:23:28,1170,0.0,32.5
+B,Adarsh (Frammer),22,4:31:54,2250,230.77,62.5
+A,Shadab,22,10:05:09,2565,0.0,71.2
+E,Dheeraj Pareek(QA theveritycorp.com),21,1:08:45,2340,0.0,65.0
+B,sukhleen,21,4:40:55,3285,0.0,91.2
+F,Neha,21,2:11:43,2610,0.0,72.5
+F,QA-Purushottam,17,1:37:58,2700,0.0,75.0
+B,QA-Aniket,17,4:13:18,3330,0.0,92.5
+A,sukhleen,17,1:40:25,1215,137.93,33.8
+C,Chandan,17,1:32:26,3510,0.0,97.5
+B,Anamika Singh,17,7:47:56,5175,0.0,143.8
+F,Abhishek,16,0:50:31,1305,0.0,36.2
+I,Sandeep Belaki,16,4:14:22,3555,0.0,98.8
+H,Kallol Pratim,16,2:32:56,2790,0.0,77.5
+B,Vaibhav,16,4:51:12,2070,0.0,57.5
+B,deleteme@frammer.com,16,3:01:14,1710,0.0,47.5
+A,Ritwik,15,0:14:05,720,0.0,20.0
+F,Subhesh,14,0:47:02,1080,0.0,30.0
+C,Ashween,14,1:26:31,630,0.0,17.5
+G,Chandan,14,5:50:46,3825,0.0,106.2
+C,QA-Aniket,13,2:48:45,1845,0.0,51.2
+E,Abhishek,13,1:06:31,1845,0.0,51.2
+C,Harish,13,0:42:19,1800,95.24,50.0
+J,Sandeep Belaki,13,2:18:14,3690,0.0,102.5
+E,Trivendra,13,2:01:38,3465,101.27,96.2
+A,Ravi Pratap Rai,12,4:29:54,945,0.0,26.2
+K,Sandeep Belaki,12,1:44:50,1800,0.0,50.0
+C,Subhash (moolya),12,0:41:42,1035,0.0,28.8
+E,Subhash (moolya),12,1:06:18,1710,0.0,47.5
+E,sukhleen,12,1:34:28,945,0.0,26.2
+D,Anamika Singh,12,1:45:39,945,0.0,26.2
+I,vikas.s@moolya.com,11,2:59:10,2565,0.0,71.2
+B,Richa,11,1:23:50,855,0.0,23.8
+G,Neha,11,1:09:39,1440,0.0,40.0
+B,Alok Rai,10,0:08:27,540,857.14,15.0
+A,Divyanshu Dutta Roy,10,1:17:54,1035,0.0,28.8
+I,vinay singh,10,0:19:05,990,0.0,27.5
+A,Nitesh,10,0:28:44,720,0.0,20.0
+A,Abhishek Sri,10,0:53:07,1035,0.0,28.8
+H,Subhash (moolya),10,0:22:39,900,0.0,25.0
+F,Dheeraj Pareek(QA theveritycorp.com),10,0:17:27,1215,0.0,33.8
+B,Deepika Uniyal (QA testaing.com),10,1:22:11,2655,0.0,73.8
+G,Deepika Uniyal (QA testaing.com),10,2:31:59,1935,0.0,53.8
+H,sukhleen,10,0:52:49,1035,0.0,28.8
+C,Deepika Uniyal (QA testaing.com),10,2:19:46,2295,0.0,63.8
+E,QA-Bhargavi,9,0:58:45,1215,0.0,33.8
+B,Ritwik,9,0:32:16,405,0.0,11.2
+I,QA-Purushottam,9,0:54:38,1980,0.0,55.0
+G,vikas.s@moolya.com,9,0:55:48,2610,66.67,72.5
+H,Chandan,9,2:01:23,1890,0.0,52.5
+D,Subhesh,9,0:39:59,945,0.0,26.2
+D,Adarsh (Frammer),9,1:15:16,1080,0.0,30.0
+B,QA-Ankith ,8,0:40:55,990,0.0,27.5
+C,Auto Upload,8,1:44:55,1935,0.0,53.8
+L ,Subhash (moolya),8,0:35:20,990,0.0,27.5
+M,Subhash (moolya),8,0:35:20,630,0.0,17.5
+G,Dheeraj Pareek(QA theveritycorp.com),8,0:18:13,540,0.0,15.0
+B,Prithviraj,7,0:20:53,540,0.0,15.0
+J,Kallol Pratim,7,0:16:50,495,0.0,13.8
+K,vikas.s@moolya.com,7,0:28:10,900,0.0,25.0
+I,Subhash (moolya),7,2:11:06,1710,0.0,47.5
+C,sukhleen,7,0:46:53,810,0.0,22.5
+E,Abhishek Sri,7,0:11:47,675,0.0,18.8
+G,Anamika Singh,7,0:52:35,675,0.0,18.8
+I,Abhishek,6,0:17:59,900,0.0,25.0
+F,Subhash (moolya),6,0:26:30,675,0.0,18.8
+O,Subhash (moolya),6,0:15:12,675,0.0,18.8
+C,Kawaljit Singh Bedi,6,0:37:08,315,0.0,8.8
+F,sukhleen,6,3:05:17,1260,0.0,35.0
+G,sukhleen,6,0:23:18,585,0.0,16.2
+C,Trivendra,6,0:48:11,765,0.0,21.2
+C,Ravi Pratap Rai,5,0:34:36,225,0.0,6.2
+A,QA-Bhargavi,5,0:47:14,855,952.38,23.8
+F,vinay singh,5,2:22:39,225,0.0,6.2
+C,Prithviraj,5,0:19:44,405,1454.55,11.2
+A,vinay singh,5,0:08:20,540,857.14,15.0
+F,vikas.s@moolya.com,5,0:17:13,585,0.0,16.2
+E,Kallol Pratim,5,0:04:23,315,0.0,8.8
+J,vikas.s@moolya.com,5,2:18:43,990,0.0,27.5
+F,Divyanshu Dutta Roy,5,2:37:16,225,0.0,6.2
+C,Arun J,5,0:40:48,585,0.0,16.2
+Q,Subhash (moolya),5,0:22:05,855,0.0,23.8
+G,Subhash (moolya),5,0:12:40,540,0.0,15.0
+F,Sandeep Belaki,5,0:19:56,855,0.0,23.8
+D,sukhleen,5,0:26:19,810,0.0,22.5
+C,Adarsh (Frammer),5,0:23:44,225,0.0,6.2
+A,Safdar,5,0:55:05,630,0.0,17.5
+L ,Nitesh,4,5:00:45,2925,0.0,81.2
+D,Nitesh,4,1:06:38,675,0.0,18.8
+C,Dheeraj Pareek(QA theveritycorp.com),4,0:04:42,360,0.0,10.0
+D,Abhishek Sri,4,0:06:44,495,0.0,13.8
+F,Deepika Uniyal (QA testaing.com),4,0:11:59,405,0.0,11.2
+H,Neha,4,0:18:44,450,0.0,12.5
+A,Richa,4,0:52:04,495,0.0,13.8
+N ,QA-Purushottam,3,0:13:46,450,0.0,12.5
+C,Test User,3,0:03:00,450,0.0,12.5
+F,Alok Rai,3,0:16:51,135,0.0,3.8
+A,QA-Amit,3,0:12:20,900,545.45,25.0
+G,Alok Rai,3,0:10:10,135,0.0,3.8
+J,Prithviraj,3,0:09:48,270,0.0,7.5
+K,Subhash (moolya),3,0:11:00,315,0.0,8.8
+K,Abhishek Sri,3,0:04:20,270,0.0,7.5
+D,Deepika Uniyal (QA testaing.com),3,0:19:15,360,0.0,10.0
+E,Deepika Uniyal (QA testaing.com),3,1:41:17,2025,0.0,56.2
+E,Neha,3,0:16:13,900,0.0,25.0
+B,Safdar,3,1:00:29,495,0.0,13.8
+D,Alok Rai,3,0:31:06,540,0.0,15.0
+D,Trivendra,3,0:16:23,585,0.0,16.2
+F,QA-Aniket,2,0:14:03,405,0.0,11.2
+E,QA-Aniket,2,0:29:00,450,0.0,12.5
+F,Nitesh,2,0:17:02,90,0.0,2.5
+E,QA-Amit,2,0:05:19,90,0.0,2.5
+C,swathi.bharadwaj@moolya.com,2,1:30:30,90,0.0,2.5
+P,Divyanshu Dutta Roy,2,0:20:13,135,0.0,3.8
+A,QA-Aniket,2,0:08:48,540,0.0,15.0
+F,Arijit Chatterjee,2,0:24:48,90,0.0,2.5
+F,Kawaljit Singh Bedi,2,1:04:56,90,0.0,2.5
+B,Kallol Pratim,2,0:01:09,90,0.0,2.5
+K,Kallol Pratim,2,0:06:44,225,0.0,6.2
+J,Abhishek Sri,2,0:08:04,225,0.0,6.2
+P,Subhash (moolya),2,0:08:50,450,0.0,12.5
+R,Subhash (moolya),2,0:08:50,270,0.0,7.5
+J,Subhash (moolya),2,0:08:04,225,0.0,6.2
+L ,Sandeep Belaki,2,0:08:50,135,0.0,3.8
+J,Subhesh,2,0:04:21,135,0.0,3.8
+E,Nitesh,2,0:13:41,315,0.0,8.8
+E,Richa,2,0:12:22,225,0.0,6.2
+F,Chandan,2,0:03:27,225,0.0,6.2
+J,Neha,2,0:15:45,405,0.0,11.2
+G,Trivendra,2,0:09:39,270,0.0,7.5
+O,QA-Purushottam,1,0:02:46,135,0.0,3.8
+R,vinay singh,1,0:02:24,45,0.0,1.2
+A,Auto Upload,1,0:57:31,45,0.0,1.2
+E,parakh,1,0:01:00,90,0.0,2.5
+F,QA-Bhargavi,1,0:03:04,45,0.0,1.2
+B,Ashween,1,0:26:03,45,0.0,1.2
+A,parakh,1,0:00:40,180,0.0,5.0
+L ,Harish,1,2:19:35,1980,0.0,55.0
+G,QA-Purushottam,1,0:06:23,315,0.0,8.8
+N ,QA-Aniket,1,0:01:19,135,0.0,3.8
+A,AB,1,0:00:44,225,0.0,6.2
+A,Kallol Pratim,1,0:00:14,90,0.0,2.5
+H,Sandeep Belaki,1,0:02:10,45,0.0,1.2
+F,Kallol Pratim,1,0:00:37,90,0.0,2.5
+H,Alok Rai,1,0:07:18,45,0.0,1.2
+G,Test User,1,0:05:06,90,0.0,2.5
+N ,Subhash (moolya),1,0:04:25,90,0.0,2.5
+H,Shadab,1,0:00:00,45,0.0,1.2
+N ,Sandeep Belaki,1,0:00:00,45,0.0,1.2
+J,Abhishek,1,0:00:00,45,0.0,1.2
+K,Abhishek,1,0:03:33,45,0.0,1.2
+P,Subhesh,1,0:06:53,45,0.0,1.2
+F,Shadab,1,0:05:16,45,0.0,1.2
+L ,Adarsh (Frammer),1,0:00:54,45,0.0,1.2
+N ,Subhesh,1,0:07:30,90,0.0,2.5
+D,Richa,1,0:00:00,45,0.0,1.2
+N ,Neha,1,0:00:48,135,0.0,3.8
+K,Neha,1,0:03:28,45,0.0,1.2
+D,Vaibhav,1,0:04:29,135,0.0,3.8
+L ,Subhesh,1,0:00:19,3645,0.0,101.2
+G,Subhesh,1,0:00:19,45,0.0,1.2
+D,Dheerendra Kumar,1,0:01:12,90,0.0,2.5
+C,Anamika Singh,1,0:07:49,225,0.0,6.2
+C,Sumit (Frammer),0,0:00:00,225,0.0,6.2
+B,Test User,0,0:00:00,90,0.0,2.5
+C,Neha,0,0:00:00,90,0.0,2.5
+I,Subhesh,0,0:00:00,90,0.0,2.5
+K,Deepika Uniyal (QA testaing.com),0,0:00:00,90,0.0,2.5
+A,Arijit Chatterjee,0,0:00:00,45,0.0,1.2
+A,Dheerendra Kumar,0,0:00:00,45,0.0,1.2
+F,Prithviraj,0,0:00:00,45,0.0,1.2
+E,Subhesh,0,0:00:00,45,0.0,1.2
+E,Anamika Singh,0,0:00:00,45,0.0,1.2
+K,Alok Rai,0,0:00:00,45,0.0,1.2
+J,Deepika Uniyal (QA testaing.com),0,0:00:00,45,0.0,1.2
+D,Abhishek,0,0:00:00,45,0.0,1.2

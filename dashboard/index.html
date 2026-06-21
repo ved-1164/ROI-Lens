@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project ROI Lens - Executive BI Strategy</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"></div>
+                <div class="logo-text">
+                    <h2>ROI LENS</h2>
+                    <span>CMO Decision Memo</span>
+                </div>
+            </div>
+            <nav class="slide-nav">
+                <ul>
+                    <li class="nav-item active" data-slide="1">
+                        <span class="slide-num">01</span>
+                        <span class="slide-name">Executive Summary</span>
+                    </li>
+                    <li class="nav-item" data-slide="2">
+                        <span class="slide-num">02</span>
+                        <span class="slide-name">The Auditing Layer</span>
+                    </li>
+                    <li class="nav-item" data-slide="3">
+                        <span class="slide-num">03</span>
+                        <span class="slide-name">Attribution Engine</span>
+                    </li>
+                    <li class="nav-item" data-slide="4">
+                        <span class="slide-num">04</span>
+                        <span class="slide-name">Funnel Deep-Dive</span>
+                    </li>
+                    <li class="nav-item" data-slide="5">
+                        <span class="slide-num">05</span>
+                        <span class="slide-name">Persona-Channel Matrix</span>
+                    </li>
+                    <li class="nav-item" data-slide="6">
+                        <span class="slide-num">06</span>
+                        <span class="slide-name">Fatigue Analysis</span>
+                    </li>
+                    <li class="nav-item" data-slide="7">
+                        <span class="slide-num">07</span>
+                        <span class="slide-name">100 Cr Reallocation</span>
+                    </li>
+                    <li class="nav-item" data-slide="8">
+                        <span class="slide-num">08</span>
+                        <span class="slide-name">Action Items</span>
+                    </li>
+                    <li class="nav-item" data-slide="9">
+                        <span class="slide-num">09</span>
+                        <span class="slide-name">Product Roadmap</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Nexus Consumer Brands</p>
+                <span>Partner: Ai Palette Insights</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="top-header">
+                <div class="brand-selector-container">
+                    <label for="brand-selector">Selected Scope:</label>
+                    <select id="brand-selector">
+                        <option value="Global">Global Portfolio (All Brands)</option>
+                        <!-- Other brands populated via JS -->
+                    </select>
+                </div>
+                <div class="header-controls">
+                    <button class="nav-btn prev-btn" id="prev-btn" disabled>&larr; Previous</button>
+                    <button class="nav-btn next-btn" id="next-btn">Next &rarr;</button>
+                </div>
+            </header>
+
+            <div class="slide-deck">
+                <!-- Slide 1: Executive Summary -->
+                <section class="slide-container active" id="slide-1">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 01</span>
+                        <h1>Executive Summary & The Attribution Blind Spot</h1>
+                        <p class="slide-subtitle">Exposing the quantitative risk of legacy "Last-Click" modeling and charting revenue leakages.</p>
+                    </div>
+                    <div class="grid-2x2">
+                        <div class="card stat-card border-left-blue">
+                            <h3>Conglomerate Portfolio Scope</h3>
+                            <div class="big-metric" id="s1-total-spend">₹0 Crore</div>
+                            <p class="metric-sub">Total Quarterly Marketing Spend</p>
+                        </div>
+                        <div class="card stat-card border-left-green">
+                            <h3>Multi-Touch Conversions Audited</h3>
+                            <div class="big-metric" id="s1-total-conversions">0</div>
+                            <p class="metric-sub">Verified customer journeys</p>
+                        </div>
+                        <div class="card text-card span-2">
+                            <h3>The Strategic Pivot</h3>
+                            <p>Nexus Consumer Brands recently deployed an expansive marketing initiative of <strong>₹100 Crore</strong> across five vital channels. Relying on legacy "Last-Click" attribution models presents a profound <strong>Attribution Blind Spot</strong>. This primitive approach misattributes system value by completely ignoring the stochastic, non-linear multi-channel paths modern consumers navigate, leading to severe resource misallocation.</p>
+                            <p><strong>Project ROI Lens</strong> eliminates guesswork by sanitizing fraud, mapping mathematical human pathways via a Markov Chain probabilistic framework, quantifying ad fatigue curves, and executing constrained optimization to maximize total conversions.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 2: The Auditing Layer -->
+                <section class="slide-container" id="slide-2">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 02</span>
+                        <h1>The Auditing Layer: Fraud Prevention & Bot Traffic</h1>
+                        <p class="slide-subtitle">Visualizing non-human traffic metrics and detailing capital saved via fraud prevention.</p>
+                    </div>
+                    <div class="grid-layout s2-grid">
+                        <div class="card chart-card">
+                            <h3>Traffic Audit Breakdown (Users)</h3>
+                            <div class="chart-container">
+                                <canvas id="bot-users-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="card stat-card border-left-red highlight-card">
+                            <h3>Total Capital Saved</h3>
+                            <div class="big-metric text-emerald" id="s2-capital-saved">₹0 Crore</div>
+                            <p class="metric-sub">Capital saved by defunding bot traffic loops</p>
+                            <div class="bot-badge">5.0% Users Flagged as Bots</div>
+                        </div>
+                        <div class="card table-card span-2">
+                            <h3>Channel Fraud Savings Report</h3>
+                            <div class="table-wrapper">
+                                <table id="bot-savings-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Channel</th>
+                                            <th>Audited Bot Clicks</th>
+                                            <th>Est. CPC Rate</th>
+                                            <th>Estimated Capital Saved (Crore)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Populated via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 3: Attribution Methodology -->
+                <section class="slide-container" id="slide-3">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 03</span>
+                        <h1>Attribution Methodology: Multi-Touch Probabilistic Engine</h1>
+                        <p class="slide-subtitle">High-level architectural visualization of Markov Chain state transitions.</p>
+                    </div>
+                    <div class="grid-layout s3-grid">
+                        <div class="card text-card">
+                            <h3>Markov Chain Transition Engine</h3>
+                            <p>Rather than crediting only the last touchpoint, the system maps consumer behavior into a discrete-time Markov chain where each channel represents a state. The true value of a channel is derived via its <strong>Removal Effect Index (REI)</strong>.</p>
+                            <p>By simulating the removal of channel <em>k</em> from the transition network, the new diminished system conversion probability is calculated. The normalized drop reveals the exact weight of fractional conversions that must be credited to that specific channel.</p>
+                            <div class="formula-box">
+                                P<sub>ij</sub> = &Sigma; (Transitions from i to j) / &Sigma; (Total Transitions out of i)
+                            </div>
+                        </div>
+                        <div class="card table-card">
+                            <h3>Markov State Transition Matrix</h3>
+                            <p class="table-desc">State-to-state directional variables (probabilities of migration between channels).</p>
+                            <div class="table-wrapper">
+                                <table id="transition-matrix-table">
+                                    <thead>
+                                        <!-- Populated via JS -->
+                                    </thead>
+                                    <tbody>
+                                        <!-- Populated via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 4: Primers vs. Closers Deep-Dive -->
+                <section class="slide-container" id="slide-4">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 04</span>
+                        <h1>Primers vs. Closers Channel Deep-Dive</h1>
+                        <p class="slide-subtitle">Categorizing all 5 ad environments by their structural performance position in the funnel.</p>
+                    </div>
+                    <div class="grid-layout s4-grid">
+                        <div class="card chart-card">
+                            <h3>Funnel Position Analysis</h3>
+                            <div class="chart-container">
+                                <canvas id="funnel-position-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="card table-card">
+                            <h3>Funnel Role Classification</h3>
+                            <div class="table-wrapper">
+                                <table id="funnel-classification-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Channel</th>
+                                            <th>Primer Score (ToF)</th>
+                                            <th>Closer Score (BoF)</th>
+                                            <th>Role Classification</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Populated via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="funnel-guide">
+                                <p><strong>Primers:</strong> High Top-of-Funnel awareness catalysts (typically YouTube, Influencers).</p>
+                                <p><strong>Closers:</strong> High Bottom-of-Funnel conversion fulfillment drivers (typically E-commerce Marketplaces).</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 5: Persona-Channel Matrix -->
+                <section class="slide-container" id="slide-5">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 05</span>
+                        <h1>Persona-Channel Interaction Matrix</h1>
+                        <p class="slide-subtitle">Cross-referencing Ai Palette consumer segments with top channels to map marketing alignment.</p>
+                    </div>
+                    <div class="card table-card">
+                        <h3>Ai Palette Persona &times; Channel Affinity Matrix</h3>
+                        <p class="table-desc">Heatmap showing absolute touchpoint volume across customer personas.</p>
+                        <div class="table-wrapper">
+                            <table id="persona-matrix-table">
+                                <thead>
+                                    <!-- Populated via JS -->
+                                </thead>
+                                <tbody>
+                                    <!-- Populated via JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 6: The Fatigue Curve Analysis -->
+                <section class="slide-container" id="slide-6">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 06</span>
+                        <h1>The Fatigue Curve & Diminishing Returns Analysis</h1>
+                        <p class="slide-subtitle">Modeling ad fatigue using a saturating logarithmic curve: f(x) = &alpha; &middot; ln(x + 1).</p>
+                    </div>
+                    <div class="grid-layout s6-grid">
+                        <div class="card chart-card span-2">
+                            <h3>Diminishing Returns (Conversions vs Spend)</h3>
+                            <div class="chart-container large-chart">
+                                <canvas id="fatigue-curves-chart"></canvas>
+                            </div>
+                        </div>
+                        <div class="card text-card">
+                            <h3>Ad Fatigue & Logarithmic Saturation</h3>
+                            <p>Assuming a linear connection between spend and acquisition yields highly flawed strategies. Every digital channel suffers from diminishing returns due to audience fatigue.</p>
+                            <p>The conversion yield function <em>f(x)</em> for a given budget allocation <em>x</em> is modeled using a saturating logarithmic curve. The fitted parameter <strong>&alpha; (Alpha)</strong> represents the marginal scaling capacity of the channel. The chart visualizes how conversions plateau as spend increases, illustrating where ad networks start wasting money.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 7: The 100 Crore Reallocation Blueprint -->
+                <section class="slide-container" id="slide-7">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 07</span>
+                        <h1>The 100 Crore Portfolio Reallocation Blueprint</h1>
+                        <p class="slide-subtitle">Presents an optimized matrix mapping the ₹10 Crore split for each brand to maximize conversions.</p>
+                    </div>
+                    <div class="grid-layout s7-grid">
+                        <!-- Left Side: Table & Metrics -->
+                        <div class="card table-card span-2">
+                            <div class="card-header-flex">
+                                <h3>Budget Reallocation Plan (₹10 Crore Cap)</h3>
+                                <div class="gain-badge" id="efficiency-gain-badge">Gain: +0.0%</div>
+                            </div>
+                            <div class="table-wrapper">
+                                <table id="reallocation-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Channel</th>
+                                            <th>Historical Spend</th>
+                                            <th>Optimized Spend</th>
+                                            <th>Delta Spend</th>
+                                            <th>Historical CPA</th>
+                                            <th>Expected Conversions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Populated via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- Right Side: Interactive Simulation Sliders -->
+                        <div class="card simulation-card">
+                            <h3>Interactive Portfolio Planner</h3>
+                            <p class="sim-desc">Manually adjust channel spends to test budget allocations against the Markov optimization model (Target: ₹10 Crore).</p>
+                            
+                            <div class="sliders-list">
+                                <!-- Populated via JS -->
+                            </div>
+                            
+                            <div class="sim-totals">
+                                <div class="sim-total-item">
+                                    <span>Total Budget Allocated</span>
+                                    <strong id="sim-total-budget">₹10.00 Crore</strong>
+                                </div>
+                                <div class="sim-total-item">
+                                    <span>Expected Conversions</span>
+                                    <strong id="sim-expected-convs">0</strong>
+                                </div>
+                                <div class="sim-total-item">
+                                    <span>Model Optimization Target</span>
+                                    <strong class="text-emerald" id="model-optimal-convs">0</strong>
+                                </div>
+                            </div>
+                            <div class="sim-actions">
+                                <button class="btn btn-secondary" id="reset-sim-btn">Reset to Historical</button>
+                                <button class="btn btn-primary" id="apply-optimal-btn">Apply Optimal</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 8: Strategic Action Items -->
+                <section class="slide-container" id="slide-8">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 08</span>
+                        <h1>Strategic Action Items for the CMO</h1>
+                        <p class="slide-subtitle">Clear, prescriptive mandates regarding caps, defunding, and tactical re-routing.</p>
+                    </div>
+                    <div class="grid-layout s8-grid">
+                        <div class="card action-card border-top-red">
+                            <div class="action-num">01</div>
+                            <h3>Defund Bot Traffic Loops</h3>
+                            <p>Immediately implement frequency caps and block IPs associated with rapid-fire click bursts (dwell times of exactly 0 seconds without impression layers). Defunding these simulated phantom conversions saves up to <strong>Rs. 1 Crore</strong> in wasted ad spend.</p>
+                        </div>
+                        <div class="card action-card border-top-blue">
+                            <div class="action-num">02</div>
+                            <h3>Implement Channel Caps</h3>
+                            <p>Enforce strict programmatic boundaries including an exact <strong>₹5 Crore cap</strong> per channel for individual brands. This prevents oversaturating Instagram and Google Search, steering budgets clear of steep diminishing return thresholds.</p>
+                        </div>
+                        <div class="card action-card border-top-green">
+                            <div class="action-num">03</div>
+                            <h3>Reallocate to High-Yield Primers</h3>
+                            <p>Shift budget out of fatiguing closers (e.g. overfunded Marketplaces) and into high-marginal value Top-of-Funnel primers (e.g. YouTube and Influencers). This synergistic rebalancing secures a projected <strong>+323% gain</strong> in systemic conversions.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 9: Scale & Product Roadmap -->
+                <section class="slide-container" id="slide-9">
+                    <div class="slide-header">
+                        <span class="slide-tag">Slide 09</span>
+                        <h1>Scale & BI Product Roadmap</h1>
+                        <p class="slide-subtitle">Outlining the long-term plan to turn this offline audit into a live BI product dashboard.</p>
+                    </div>
+                    <div class="roadmap-timeline">
+                        <div class="timeline-item">
+                            <div class="time-marker">Q3 2026</div>
+                            <div class="time-content">
+                                <h3>Automated Data Ingestion</h3>
+                                <p>Set up automated pipelines connecting raw Facebook Graph API, Google Ads API, and E-commerce Marketplace APIs directly into a central Snowflake data warehouse.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-marker">Q4 2026</div>
+                            <div class="time-content">
+                                <h3>Real-Time Attribution</h3>
+                                <p>Deploy a real-time streaming Markov Chain model on dbt / Apache Spark. Move from monthly offline audits to a daily refreshed dashboard showing active Removal Effect indices.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="time-marker">Q1 2027</div>
+                            <div class="time-content">
+                                <h3>AI-Driven Bidding Integration</h3>
+                                <p>Connect the optimizer output directly to DSP bidding engines, automatically updating bid caps and budget constraints via API loops without human intervention.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>

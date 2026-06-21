@@ -1,0 +1,2723 @@
+{
+    "sifter_report": {
+        "total_events": 32654,
+        "total_users": 10000,
+        "bot_users": 500,
+        "bot_events": 5081,
+        "capital_saved_crore": 1.0,
+        "savings_by_channel": {
+            "Instagram": {
+                "click_count": 1046,
+                "capital_saved_crore": 0.1046
+            },
+            "Google Search": {
+                "click_count": 1132,
+                "capital_saved_crore": 0.1698
+            },
+            "Influencer Networks": {
+                "click_count": 981,
+                "capital_saved_crore": 0.2943
+            },
+            "YouTube": {
+                "click_count": 983,
+                "capital_saved_crore": 0.1966
+            },
+            "E-commerce Marketplaces": {
+                "click_count": 939,
+                "capital_saved_crore": 0.2348
+            }
+        }
+    },
+    "attribution_report": {
+        "global": {
+            "label": "Global",
+            "total_conversions": 3293,
+            "total_spend_crore": 7.7937,
+            "overall_cpa_crore": 0.0024,
+            "base_conversion_probability": 0.3466,
+            "channel_metrics": [
+                {
+                    "channel": "Instagram",
+                    "spend_crore": 6.021,
+                    "attributed_conversions": 428.58,
+                    "cpa_crore": 0.014,
+                    "revenue_crore": 0.8572,
+                    "roi_pct": -85.76,
+                    "rei": 0.1301
+                },
+                {
+                    "channel": "Google Search",
+                    "spend_crore": 0.2188,
+                    "attributed_conversions": 676.34,
+                    "cpa_crore": 0.0003,
+                    "revenue_crore": 1.3527,
+                    "roi_pct": 518.23,
+                    "rei": 0.2054
+                },
+                {
+                    "channel": "Influencer Networks",
+                    "spend_crore": 0.5152,
+                    "attributed_conversions": 348.88,
+                    "cpa_crore": 0.0015,
+                    "revenue_crore": 0.6978,
+                    "roi_pct": 35.43,
+                    "rei": 0.1059
+                },
+                {
+                    "channel": "YouTube",
+                    "spend_crore": 0.1093,
+                    "attributed_conversions": 493.61,
+                    "cpa_crore": 0.0002,
+                    "revenue_crore": 0.9872,
+                    "roi_pct": 803.22,
+                    "rei": 0.1499
+                },
+                {
+                    "channel": "E-commerce Marketplaces",
+                    "spend_crore": 0.9294,
+                    "attributed_conversions": 1345.59,
+                    "cpa_crore": 0.0007,
+                    "revenue_crore": 2.6912,
+                    "roi_pct": 189.56,
+                    "rei": 0.4086
+                }
+            ],
+            "funnel_classification": {
+                "Instagram": {
+                    "primer_score": 0.5516,
+                    "closer_score": 0.049,
+                    "classification": "Primer"
+                },
+                "Google Search": {
+                    "primer_score": 0.5532,
+                    "closer_score": 0.0815,
+                    "classification": "Primer"
+                },
+                "Influencer Networks": {
+                    "primer_score": 0.5077,
+                    "closer_score": 0.0404,
+                    "classification": "Primer"
+                },
+                "YouTube": {
+                    "primer_score": 0.4194,
+                    "closer_score": 0.072,
+                    "classification": "Primer"
+                },
+                "E-commerce Marketplaces": {
+                    "primer_score": 0.4205,
+                    "closer_score": 0.4276,
+                    "classification": "Closer"
+                }
+            },
+            "transition_matrix": [
+                {
+                    "from_state": "Start",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.1942,
+                        "Google Search": 0.2522,
+                        "Influencer Networks": 0.1495,
+                        "YouTube": 0.1545,
+                        "E-commerce Marketplaces": 0.2496,
+                        "Conversion": 0.0,
+                        "Null": 0.0
+                    }
+                },
+                {
+                    "from_state": "Instagram",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.0,
+                        "Google Search": 0.1662,
+                        "Influencer Networks": 0.154,
+                        "YouTube": 0.1605,
+                        "E-commerce Marketplaces": 0.1564,
+                        "Conversion": 0.049,
+                        "Null": 0.3139
+                    }
+                },
+                {
+                    "from_state": "Google Search",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.0794,
+                        "Google Search": 0.0,
+                        "Influencer Networks": 0.0776,
+                        "YouTube": 0.1471,
+                        "E-commerce Marketplaces": 0.3329,
+                        "Conversion": 0.0815,
+                        "Null": 0.2815
+                    }
+                },
+                {
+                    "from_state": "Influencer Networks",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.1477,
+                        "Google Search": 0.1562,
+                        "Influencer Networks": 0.0,
+                        "YouTube": 0.1487,
+                        "E-commerce Marketplaces": 0.1641,
+                        "Conversion": 0.0404,
+                        "Null": 0.3429
+                    }
+                },
+                {
+                    "from_state": "YouTube",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.1511,
+                        "Google Search": 0.1474,
+                        "Influencer Networks": 0.082,
+                        "YouTube": 0.0,
+                        "E-commerce Marketplaces": 0.2409,
+                        "Conversion": 0.072,
+                        "Null": 0.3066
+                    }
+                },
+                {
+                    "from_state": "E-commerce Marketplaces",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.038,
+                        "Google Search": 0.0756,
+                        "Influencer Networks": 0.0424,
+                        "YouTube": 0.0784,
+                        "E-commerce Marketplaces": 0.0,
+                        "Conversion": 0.4276,
+                        "Null": 0.3381
+                    }
+                },
+                {
+                    "from_state": "Conversion",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.0,
+                        "Google Search": 0.0,
+                        "Influencer Networks": 0.0,
+                        "YouTube": 0.0,
+                        "E-commerce Marketplaces": 0.0,
+                        "Conversion": 1.0,
+                        "Null": 0.0
+                    }
+                },
+                {
+                    "from_state": "Null",
+                    "transitions": {
+                        "Start": 0.0,
+                        "Instagram": 0.0,
+                        "Google Search": 0.0,
+                        "Influencer Networks": 0.0,
+                        "YouTube": 0.0,
+                        "E-commerce Marketplaces": 0.0,
+                        "Conversion": 0.0,
+                        "Null": 1.0
+                    }
+                }
+            ]
+        },
+        "brands": {
+            "Brand A": {
+                "label": "Brand A",
+                "total_conversions": 305,
+                "total_spend_crore": 7.1237,
+                "overall_cpa_crore": 0.0234,
+                "base_conversion_probability": 0.3312,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 3.8435,
+                        "attributed_conversions": 41.82,
+                        "cpa_crore": 0.0919,
+                        "revenue_crore": 0.0836,
+                        "roi_pct": -97.82,
+                        "rei": 0.1371
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 1.6813,
+                        "attributed_conversions": 60.66,
+                        "cpa_crore": 0.0277,
+                        "revenue_crore": 0.1213,
+                        "roi_pct": -92.78,
+                        "rei": 0.1989
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 1.1657,
+                        "attributed_conversions": 32.79,
+                        "cpa_crore": 0.0355,
+                        "revenue_crore": 0.0656,
+                        "roi_pct": -94.37,
+                        "rei": 0.1075
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 0.2166,
+                        "attributed_conversions": 41.36,
+                        "cpa_crore": 0.0052,
+                        "revenue_crore": 0.0827,
+                        "roi_pct": -61.81,
+                        "rei": 0.1356
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 0.2166,
+                        "attributed_conversions": 128.36,
+                        "cpa_crore": 0.0017,
+                        "revenue_crore": 0.2567,
+                        "roi_pct": 18.53,
+                        "rei": 0.4209
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5772,
+                        "closer_score": 0.0617,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5036,
+                        "closer_score": 0.063,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5634,
+                        "closer_score": 0.0352,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4264,
+                        "closer_score": 0.0521,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4227,
+                        "closer_score": 0.432,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.203,
+                            "Google Search": 0.2258,
+                            "Influencer Networks": 0.1737,
+                            "YouTube": 0.1509,
+                            "E-commerce Marketplaces": 0.2465,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1821,
+                            "Influencer Networks": 0.1574,
+                            "YouTube": 0.1698,
+                            "E-commerce Marketplaces": 0.1389,
+                            "Conversion": 0.0617,
+                            "Null": 0.2901
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0654,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0654,
+                            "YouTube": 0.1283,
+                            "E-commerce Marketplaces": 0.368,
+                            "Conversion": 0.063,
+                            "Null": 0.3099
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1514,
+                            "Google Search": 0.1514,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1655,
+                            "E-commerce Marketplaces": 0.1408,
+                            "Conversion": 0.0352,
+                            "Null": 0.3556
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1319,
+                            "Google Search": 0.1595,
+                            "Influencer Networks": 0.0828,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2239,
+                            "Conversion": 0.0521,
+                            "Null": 0.3497
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0447,
+                            "Google Search": 0.095,
+                            "Influencer Networks": 0.0354,
+                            "YouTube": 0.0596,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.432,
+                            "Null": 0.3333
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand B": {
+                "label": "Brand B",
+                "total_conversions": 312,
+                "total_spend_crore": 6.1743,
+                "overall_cpa_crore": 0.0198,
+                "base_conversion_probability": 0.3358,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 1.6157,
+                        "attributed_conversions": 38.14,
+                        "cpa_crore": 0.0424,
+                        "revenue_crore": 0.0763,
+                        "roi_pct": -95.28,
+                        "rei": 0.1222
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.7383,
+                        "attributed_conversions": 63.6,
+                        "cpa_crore": 0.0116,
+                        "revenue_crore": 0.1272,
+                        "roi_pct": -82.77,
+                        "rei": 0.2039
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 0.9891,
+                        "attributed_conversions": 32.0,
+                        "cpa_crore": 0.0309,
+                        "revenue_crore": 0.064,
+                        "roi_pct": -93.53,
+                        "rei": 0.1026
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 0.0167,
+                        "attributed_conversions": 49.67,
+                        "cpa_crore": 0.0003,
+                        "revenue_crore": 0.0993,
+                        "roi_pct": 494.84,
+                        "rei": 0.1592
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 2.8145,
+                        "attributed_conversions": 128.59,
+                        "cpa_crore": 0.0219,
+                        "revenue_crore": 0.2572,
+                        "roi_pct": -90.86,
+                        "rei": 0.4121
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5252,
+                        "closer_score": 0.0283,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5459,
+                        "closer_score": 0.078,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5018,
+                        "closer_score": 0.0356,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.3944,
+                        "closer_score": 0.0806,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4366,
+                        "closer_score": 0.4167,
+                        "classification": "Primer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1798,
+                            "Google Search": 0.2562,
+                            "Influencer Networks": 0.1518,
+                            "YouTube": 0.1529,
+                            "E-commerce Marketplaces": 0.2594,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1541,
+                            "Influencer Networks": 0.1509,
+                            "YouTube": 0.1667,
+                            "E-commerce Marketplaces": 0.1887,
+                            "Conversion": 0.0283,
+                            "Null": 0.3113
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.078,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0963,
+                            "YouTube": 0.1491,
+                            "E-commerce Marketplaces": 0.305,
+                            "Conversion": 0.078,
+                            "Null": 0.2936
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.153,
+                            "Google Search": 0.1779,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1566,
+                            "E-commerce Marketplaces": 0.1246,
+                            "Conversion": 0.0356,
+                            "Null": 0.3523
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1639,
+                            "Google Search": 0.1611,
+                            "Influencer Networks": 0.0667,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2306,
+                            "Conversion": 0.0806,
+                            "Null": 0.2972
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0272,
+                            "Google Search": 0.0743,
+                            "Influencer Networks": 0.0471,
+                            "YouTube": 0.1014,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4167,
+                            "Null": 0.3333
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand C": {
+                "label": "Brand C",
+                "total_conversions": 327,
+                "total_spend_crore": 8.4974,
+                "overall_cpa_crore": 0.026,
+                "base_conversion_probability": 0.3501,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 1.1599,
+                        "attributed_conversions": 43.82,
+                        "cpa_crore": 0.0265,
+                        "revenue_crore": 0.0876,
+                        "roi_pct": -92.44,
+                        "rei": 0.134
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.9752,
+                        "attributed_conversions": 67.98,
+                        "cpa_crore": 0.0143,
+                        "revenue_crore": 0.136,
+                        "roi_pct": -86.06,
+                        "rei": 0.2079
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 0.9846,
+                        "attributed_conversions": 37.38,
+                        "cpa_crore": 0.0263,
+                        "revenue_crore": 0.0748,
+                        "roi_pct": -92.41,
+                        "rei": 0.1143
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 1.7627,
+                        "attributed_conversions": 46.88,
+                        "cpa_crore": 0.0376,
+                        "revenue_crore": 0.0938,
+                        "roi_pct": -94.68,
+                        "rei": 0.1433
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 3.615,
+                        "attributed_conversions": 130.95,
+                        "cpa_crore": 0.0276,
+                        "revenue_crore": 0.2619,
+                        "roi_pct": -92.76,
+                        "rei": 0.4005
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5559,
+                        "closer_score": 0.05,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5452,
+                        "closer_score": 0.0812,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.4945,
+                        "closer_score": 0.0655,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4204,
+                        "closer_score": 0.0721,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.412,
+                        "closer_score": 0.4102,
+                        "classification": "Primer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.2024,
+                            "Google Search": 0.2516,
+                            "Influencer Networks": 0.1456,
+                            "YouTube": 0.1499,
+                            "E-commerce Marketplaces": 0.2505,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1676,
+                            "Influencer Networks": 0.1618,
+                            "YouTube": 0.1529,
+                            "E-commerce Marketplaces": 0.1529,
+                            "Conversion": 0.05,
+                            "Null": 0.3147
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0835,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0905,
+                            "YouTube": 0.1508,
+                            "E-commerce Marketplaces": 0.3411,
+                            "Conversion": 0.0812,
+                            "Null": 0.2529
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1236,
+                            "Google Search": 0.1527,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1273,
+                            "E-commerce Marketplaces": 0.1891,
+                            "Conversion": 0.0655,
+                            "Null": 0.3418
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1411,
+                            "Google Search": 0.1321,
+                            "Influencer Networks": 0.0841,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2492,
+                            "Conversion": 0.0721,
+                            "Null": 0.3213
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0599,
+                            "Google Search": 0.0933,
+                            "Influencer Networks": 0.0299,
+                            "YouTube": 0.0722,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4102,
+                            "Null": 0.3345
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand D": {
+                "label": "Brand D",
+                "total_conversions": 332,
+                "total_spend_crore": 7.2959,
+                "overall_cpa_crore": 0.022,
+                "base_conversion_probability": 0.3632,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 1.1198,
+                        "attributed_conversions": 42.19,
+                        "cpa_crore": 0.0265,
+                        "revenue_crore": 0.0844,
+                        "roi_pct": -92.46,
+                        "rei": 0.1271
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 3.0788,
+                        "attributed_conversions": 68.03,
+                        "cpa_crore": 0.0453,
+                        "revenue_crore": 0.1361,
+                        "roi_pct": -95.58,
+                        "rei": 0.2049
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 0.4888,
+                        "attributed_conversions": 35.84,
+                        "cpa_crore": 0.0136,
+                        "revenue_crore": 0.0717,
+                        "roi_pct": -85.34,
+                        "rei": 0.108
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 1.1241,
+                        "attributed_conversions": 50.98,
+                        "cpa_crore": 0.0221,
+                        "revenue_crore": 0.102,
+                        "roi_pct": -90.93,
+                        "rei": 0.1536
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 1.4844,
+                        "attributed_conversions": 134.96,
+                        "cpa_crore": 0.011,
+                        "revenue_crore": 0.2699,
+                        "roi_pct": -81.82,
+                        "rei": 0.4065
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5046,
+                        "closer_score": 0.0336,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5507,
+                        "closer_score": 0.0806,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5133,
+                        "closer_score": 0.0342,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4477,
+                        "closer_score": 0.0785,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4026,
+                        "closer_score": 0.4554,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1805,
+                            "Google Search": 0.2615,
+                            "Influencer Networks": 0.1477,
+                            "YouTube": 0.1685,
+                            "E-commerce Marketplaces": 0.2418,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1713,
+                            "Influencer Networks": 0.1682,
+                            "YouTube": 0.1651,
+                            "E-commerce Marketplaces": 0.1713,
+                            "Conversion": 0.0336,
+                            "Null": 0.2905
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0806,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0622,
+                            "YouTube": 0.1659,
+                            "E-commerce Marketplaces": 0.3226,
+                            "Conversion": 0.0806,
+                            "Null": 0.288
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1825,
+                            "Google Search": 0.1863,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1407,
+                            "E-commerce Marketplaces": 0.1863,
+                            "Conversion": 0.0342,
+                            "Null": 0.27
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1483,
+                            "Google Search": 0.1599,
+                            "Influencer Networks": 0.0843,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2413,
+                            "Conversion": 0.0785,
+                            "Null": 0.2878
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.051,
+                            "Google Search": 0.0638,
+                            "Influencer Networks": 0.031,
+                            "YouTube": 0.0492,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4554,
+                            "Null": 0.3497
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand E": {
+                "label": "Brand E",
+                "total_conversions": 352,
+                "total_spend_crore": 7.3681,
+                "overall_cpa_crore": 0.0209,
+                "base_conversion_probability": 0.3607,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 3.3059,
+                        "attributed_conversions": 48.37,
+                        "cpa_crore": 0.0683,
+                        "revenue_crore": 0.0967,
+                        "roi_pct": -97.07,
+                        "rei": 0.1374
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.4788,
+                        "attributed_conversions": 74.36,
+                        "cpa_crore": 0.0064,
+                        "revenue_crore": 0.1487,
+                        "roi_pct": -68.94,
+                        "rei": 0.2113
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 1.552,
+                        "attributed_conversions": 40.51,
+                        "cpa_crore": 0.0383,
+                        "revenue_crore": 0.081,
+                        "roi_pct": -94.78,
+                        "rei": 0.1151
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 1.9292,
+                        "attributed_conversions": 48.67,
+                        "cpa_crore": 0.0396,
+                        "revenue_crore": 0.0973,
+                        "roi_pct": -94.95,
+                        "rei": 0.1383
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 0.1022,
+                        "attributed_conversions": 140.08,
+                        "cpa_crore": 0.0007,
+                        "revenue_crore": 0.2802,
+                        "roi_pct": 174.14,
+                        "rei": 0.398
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5628,
+                        "closer_score": 0.0656,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5396,
+                        "closer_score": 0.1013,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.48,
+                        "closer_score": 0.0433,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.3864,
+                        "closer_score": 0.0568,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4268,
+                        "closer_score": 0.4338,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.2111,
+                            "Google Search": 0.251,
+                            "Influencer Networks": 0.1475,
+                            "YouTube": 0.1393,
+                            "E-commerce Marketplaces": 0.251,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1667,
+                            "Influencer Networks": 0.1639,
+                            "YouTube": 0.123,
+                            "E-commerce Marketplaces": 0.1393,
+                            "Conversion": 0.0656,
+                            "Null": 0.3415
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0859,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0793,
+                            "YouTube": 0.1432,
+                            "E-commerce Marketplaces": 0.315,
+                            "Conversion": 0.1013,
+                            "Null": 0.2753
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.14,
+                            "Google Search": 0.1567,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1833,
+                            "E-commerce Marketplaces": 0.18,
+                            "Conversion": 0.0433,
+                            "Null": 0.2967
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1562,
+                            "Google Search": 0.1506,
+                            "Influencer Networks": 0.0994,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2301,
+                            "Conversion": 0.0568,
+                            "Null": 0.3068
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0418,
+                            "Google Search": 0.0836,
+                            "Influencer Networks": 0.0436,
+                            "YouTube": 0.0889,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4338,
+                            "Null": 0.3084
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand F": {
+                "label": "Brand F",
+                "total_conversions": 340,
+                "total_spend_crore": 7.8227,
+                "overall_cpa_crore": 0.023,
+                "base_conversion_probability": 0.3337,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 0.1773,
+                        "attributed_conversions": 46.27,
+                        "cpa_crore": 0.0038,
+                        "revenue_crore": 0.0925,
+                        "roi_pct": -47.8,
+                        "rei": 0.1361
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.0638,
+                        "attributed_conversions": 70.63,
+                        "cpa_crore": 0.0009,
+                        "revenue_crore": 0.1413,
+                        "roi_pct": 121.41,
+                        "rei": 0.2077
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 2.8193,
+                        "attributed_conversions": 35.36,
+                        "cpa_crore": 0.0797,
+                        "revenue_crore": 0.0707,
+                        "roi_pct": -97.49,
+                        "rei": 0.104
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 3.1957,
+                        "attributed_conversions": 48.86,
+                        "cpa_crore": 0.0654,
+                        "revenue_crore": 0.0977,
+                        "roi_pct": -96.94,
+                        "rei": 0.1437
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 1.5666,
+                        "attributed_conversions": 138.87,
+                        "cpa_crore": 0.0113,
+                        "revenue_crore": 0.2777,
+                        "roi_pct": -82.27,
+                        "rei": 0.4084
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5582,
+                        "closer_score": 0.0503,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.577,
+                        "closer_score": 0.0651,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.4917,
+                        "closer_score": 0.0365,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4274,
+                        "closer_score": 0.0855,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4143,
+                        "closer_score": 0.4244,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.2071,
+                            "Google Search": 0.261,
+                            "Influencer Networks": 0.1452,
+                            "YouTube": 0.1472,
+                            "E-commerce Marketplaces": 0.2395,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.164,
+                            "Influencer Networks": 0.1561,
+                            "YouTube": 0.1693,
+                            "E-commerce Marketplaces": 0.1402,
+                            "Conversion": 0.0503,
+                            "Null": 0.3201
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0846,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0738,
+                            "YouTube": 0.1323,
+                            "E-commerce Marketplaces": 0.3709,
+                            "Conversion": 0.0651,
+                            "Null": 0.2733
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1495,
+                            "Google Search": 0.1462,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1362,
+                            "E-commerce Marketplaces": 0.1661,
+                            "Conversion": 0.0365,
+                            "Null": 0.3654
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1709,
+                            "Google Search": 0.1311,
+                            "Influencer Networks": 0.1054,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2023,
+                            "Conversion": 0.0855,
+                            "Null": 0.3048
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.039,
+                            "Google Search": 0.073,
+                            "Influencer Networks": 0.039,
+                            "YouTube": 0.0594,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4244,
+                            "Null": 0.365
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand G": {
+                "label": "Brand G",
+                "total_conversions": 327,
+                "total_spend_crore": 6.9138,
+                "overall_cpa_crore": 0.0211,
+                "base_conversion_probability": 0.3357,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 0.2682,
+                        "attributed_conversions": 42.16,
+                        "cpa_crore": 0.0064,
+                        "revenue_crore": 0.0843,
+                        "roi_pct": -68.56,
+                        "rei": 0.1289
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 3.0083,
+                        "attributed_conversions": 63.11,
+                        "cpa_crore": 0.0477,
+                        "revenue_crore": 0.1262,
+                        "roi_pct": -95.8,
+                        "rei": 0.193
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 1.5138,
+                        "attributed_conversions": 34.18,
+                        "cpa_crore": 0.0443,
+                        "revenue_crore": 0.0684,
+                        "roi_pct": -95.48,
+                        "rei": 0.1045
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 0.3397,
+                        "attributed_conversions": 53.0,
+                        "cpa_crore": 0.0064,
+                        "revenue_crore": 0.106,
+                        "roi_pct": -68.8,
+                        "rei": 0.1621
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 1.7838,
+                        "attributed_conversions": 134.56,
+                        "cpa_crore": 0.0133,
+                        "revenue_crore": 0.2691,
+                        "roi_pct": -84.91,
+                        "rei": 0.4115
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5146,
+                        "closer_score": 0.0526,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5606,
+                        "closer_score": 0.0709,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5294,
+                        "closer_score": 0.0415,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4042,
+                        "closer_score": 0.0709,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4424,
+                        "closer_score": 0.4299,
+                        "classification": "Primer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1807,
+                            "Google Search": 0.2515,
+                            "Influencer Networks": 0.1571,
+                            "YouTube": 0.1581,
+                            "E-commerce Marketplaces": 0.2526,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1754,
+                            "Influencer Networks": 0.1257,
+                            "YouTube": 0.1813,
+                            "E-commerce Marketplaces": 0.1374,
+                            "Conversion": 0.0526,
+                            "Null": 0.3275
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0938,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0938,
+                            "YouTube": 0.1396,
+                            "E-commerce Marketplaces": 0.2906,
+                            "Conversion": 0.0709,
+                            "Null": 0.3112
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1626,
+                            "Google Search": 0.128,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1765,
+                            "E-commerce Marketplaces": 0.1349,
+                            "Conversion": 0.0415,
+                            "Null": 0.3564
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1549,
+                            "Google Search": 0.1365,
+                            "Influencer Networks": 0.084,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2546,
+                            "Conversion": 0.0709,
+                            "Null": 0.2992
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0342,
+                            "Google Search": 0.0773,
+                            "Influencer Networks": 0.036,
+                            "YouTube": 0.0953,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4299,
+                            "Null": 0.3273
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand H": {
+                "label": "Brand H",
+                "total_conversions": 349,
+                "total_spend_crore": 6.1032,
+                "overall_cpa_crore": 0.0175,
+                "base_conversion_probability": 0.355,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 2.9936,
+                        "attributed_conversions": 43.92,
+                        "cpa_crore": 0.0682,
+                        "revenue_crore": 0.0878,
+                        "roi_pct": -97.07,
+                        "rei": 0.1259
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.3735,
+                        "attributed_conversions": 75.31,
+                        "cpa_crore": 0.005,
+                        "revenue_crore": 0.1506,
+                        "roi_pct": -59.67,
+                        "rei": 0.2158
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 1.3547,
+                        "attributed_conversions": 32.58,
+                        "cpa_crore": 0.0416,
+                        "revenue_crore": 0.0652,
+                        "roi_pct": -95.19,
+                        "rei": 0.0933
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 0.4659,
+                        "attributed_conversions": 50.82,
+                        "cpa_crore": 0.0092,
+                        "revenue_crore": 0.1016,
+                        "roi_pct": -78.19,
+                        "rei": 0.1456
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 0.9155,
+                        "attributed_conversions": 146.37,
+                        "cpa_crore": 0.0063,
+                        "revenue_crore": 0.2927,
+                        "roi_pct": -68.02,
+                        "rei": 0.4194
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.6149,
+                        "closer_score": 0.0497,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5618,
+                        "closer_score": 0.0966,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5081,
+                        "closer_score": 0.0444,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.462,
+                        "closer_score": 0.0563,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4202,
+                        "closer_score": 0.4443,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.2014,
+                            "Google Search": 0.2543,
+                            "Influencer Networks": 0.1282,
+                            "YouTube": 0.1668,
+                            "E-commerce Marketplaces": 0.2492,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.177,
+                            "Influencer Networks": 0.1677,
+                            "YouTube": 0.1429,
+                            "E-commerce Marketplaces": 0.1553,
+                            "Conversion": 0.0497,
+                            "Null": 0.3075
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0742,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0427,
+                            "YouTube": 0.1483,
+                            "E-commerce Marketplaces": 0.3483,
+                            "Conversion": 0.0966,
+                            "Null": 0.2899
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1331,
+                            "Google Search": 0.1694,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.121,
+                            "E-commerce Marketplaces": 0.1694,
+                            "Conversion": 0.0444,
+                            "Null": 0.3629
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1437,
+                            "Google Search": 0.1634,
+                            "Influencer Networks": 0.0535,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2563,
+                            "Conversion": 0.0563,
+                            "Null": 0.3268
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.012,
+                            "Google Search": 0.0652,
+                            "Influencer Networks": 0.0515,
+                            "YouTube": 0.084,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4443,
+                            "Null": 0.3431
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand I": {
+                "label": "Brand I",
+                "total_conversions": 329,
+                "total_spend_crore": 7.64,
+                "overall_cpa_crore": 0.0232,
+                "base_conversion_probability": 0.3549,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 0.1524,
+                        "attributed_conversions": 38.58,
+                        "cpa_crore": 0.0039,
+                        "revenue_crore": 0.0772,
+                        "roi_pct": -49.36,
+                        "rei": 0.1173
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 2.6043,
+                        "attributed_conversions": 67.78,
+                        "cpa_crore": 0.0384,
+                        "revenue_crore": 0.1356,
+                        "roi_pct": -94.8,
+                        "rei": 0.206
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 1.1126,
+                        "attributed_conversions": 32.87,
+                        "cpa_crore": 0.0339,
+                        "revenue_crore": 0.0657,
+                        "roi_pct": -94.09,
+                        "rei": 0.0999
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 2.0915,
+                        "attributed_conversions": 53.74,
+                        "cpa_crore": 0.0389,
+                        "revenue_crore": 0.1075,
+                        "roi_pct": -94.86,
+                        "rei": 0.1634
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 1.6792,
+                        "attributed_conversions": 136.03,
+                        "cpa_crore": 0.0123,
+                        "revenue_crore": 0.2721,
+                        "roi_pct": -83.8,
+                        "rei": 0.4135
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5353,
+                        "closer_score": 0.0321,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.5956,
+                        "closer_score": 0.0858,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.5036,
+                        "closer_score": 0.0254,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.3883,
+                        "closer_score": 0.0894,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.4078,
+                        "closer_score": 0.4181,
+                        "classification": "Closer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1802,
+                            "Google Search": 0.2621,
+                            "Influencer Networks": 0.1499,
+                            "YouTube": 0.1499,
+                            "E-commerce Marketplaces": 0.2578,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1538,
+                            "Influencer Networks": 0.1314,
+                            "YouTube": 0.1699,
+                            "E-commerce Marketplaces": 0.1763,
+                            "Conversion": 0.0321,
+                            "Null": 0.3365
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0809,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0784,
+                            "YouTube": 0.1691,
+                            "E-commerce Marketplaces": 0.348,
+                            "Conversion": 0.0858,
+                            "Null": 0.2377
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1304,
+                            "Google Search": 0.163,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1341,
+                            "E-commerce Marketplaces": 0.1775,
+                            "Conversion": 0.0254,
+                            "Null": 0.3696
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.148,
+                            "Google Search": 0.1117,
+                            "Influencer Networks": 0.0866,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2821,
+                            "Conversion": 0.0894,
+                            "Null": 0.2821
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0392,
+                            "Google Search": 0.0546,
+                            "Influencer Networks": 0.0563,
+                            "YouTube": 0.1024,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4181,
+                            "Null": 0.3294
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            },
+            "Brand J": {
+                "label": "Brand J",
+                "total_conversions": 320,
+                "total_spend_crore": 7.7937,
+                "overall_cpa_crore": 0.0244,
+                "base_conversion_probability": 0.3467,
+                "channel_metrics": [
+                    {
+                        "channel": "Instagram",
+                        "spend_crore": 6.021,
+                        "attributed_conversions": 43.52,
+                        "cpa_crore": 0.1383,
+                        "revenue_crore": 0.087,
+                        "roi_pct": -98.55,
+                        "rei": 0.136
+                    },
+                    {
+                        "channel": "Google Search",
+                        "spend_crore": 0.2188,
+                        "attributed_conversions": 65.22,
+                        "cpa_crore": 0.0034,
+                        "revenue_crore": 0.1304,
+                        "roi_pct": -40.39,
+                        "rei": 0.2038
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "spend_crore": 0.5152,
+                        "attributed_conversions": 35.05,
+                        "cpa_crore": 0.0147,
+                        "revenue_crore": 0.0701,
+                        "roi_pct": -86.39,
+                        "rei": 0.1095
+                    },
+                    {
+                        "channel": "YouTube",
+                        "spend_crore": 0.1093,
+                        "attributed_conversions": 49.34,
+                        "cpa_crore": 0.0022,
+                        "revenue_crore": 0.0987,
+                        "roi_pct": -9.71,
+                        "rei": 0.1542
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "spend_crore": 0.9294,
+                        "attributed_conversions": 126.86,
+                        "cpa_crore": 0.0073,
+                        "revenue_crore": 0.2537,
+                        "roi_pct": -72.7,
+                        "rei": 0.3965
+                    }
+                ],
+                "funnel_classification": {
+                    "Instagram": {
+                        "primer_score": 0.5665,
+                        "closer_score": 0.0633,
+                        "classification": "Primer"
+                    },
+                    "Google Search": {
+                        "primer_score": 0.551,
+                        "closer_score": 0.0922,
+                        "classification": "Primer"
+                    },
+                    "Influencer Networks": {
+                        "primer_score": 0.4929,
+                        "closer_score": 0.0429,
+                        "classification": "Primer"
+                    },
+                    "YouTube": {
+                        "primer_score": 0.4412,
+                        "closer_score": 0.0765,
+                        "classification": "Primer"
+                    },
+                    "E-commerce Marketplaces": {
+                        "primer_score": 0.421,
+                        "closer_score": 0.4118,
+                        "classification": "Primer"
+                    }
+                },
+                "transition_matrix": [
+                    {
+                        "from_state": "Start",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.1939,
+                            "Google Search": 0.2459,
+                            "Influencer Networks": 0.1495,
+                            "YouTube": 0.1625,
+                            "E-commerce Marketplaces": 0.2481,
+                            "Conversion": 0.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Instagram",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.1487,
+                            "Influencer Networks": 0.1551,
+                            "YouTube": 0.1677,
+                            "E-commerce Marketplaces": 0.1709,
+                            "Conversion": 0.0633,
+                            "Null": 0.2943
+                        }
+                    },
+                    {
+                        "from_state": "Google Search",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0655,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0947,
+                            "YouTube": 0.1456,
+                            "E-commerce Marketplaces": 0.3204,
+                            "Conversion": 0.0922,
+                            "Null": 0.2816
+                        }
+                    },
+                    {
+                        "from_state": "Influencer Networks",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.15,
+                            "Google Search": 0.1357,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.1393,
+                            "E-commerce Marketplaces": 0.175,
+                            "Conversion": 0.0429,
+                            "Null": 0.3571
+                        }
+                    },
+                    {
+                        "from_state": "YouTube",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.15,
+                            "Google Search": 0.1706,
+                            "Influencer Networks": 0.0735,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.2353,
+                            "Conversion": 0.0765,
+                            "Null": 0.2941
+                        }
+                    },
+                    {
+                        "from_state": "E-commerce Marketplaces",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0312,
+                            "Google Search": 0.0772,
+                            "Influencer Networks": 0.0533,
+                            "YouTube": 0.0699,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.4118,
+                            "Null": 0.3566
+                        }
+                    },
+                    {
+                        "from_state": "Conversion",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 1.0,
+                            "Null": 0.0
+                        }
+                    },
+                    {
+                        "from_state": "Null",
+                        "transitions": {
+                            "Start": 0.0,
+                            "Instagram": 0.0,
+                            "Google Search": 0.0,
+                            "Influencer Networks": 0.0,
+                            "YouTube": 0.0,
+                            "E-commerce Marketplaces": 0.0,
+                            "Conversion": 0.0,
+                            "Null": 1.0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "optimization_report": {
+        "global_historical_conversions": 3292.98,
+        "global_scaled_historical_conversions": 4134.24,
+        "global_optimized_conversions": 17504.85,
+        "global_efficiency_gain_pct": 323.41,
+        "brands": {
+            "Brand A": {
+                "brand": "Brand A",
+                "historical_spend_total": 7.1237,
+                "historical_conversions_total": 304.99,
+                "scaled_historical_conversions_total": 394.68,
+                "optimized_conversions_total": 1557.86,
+                "efficiency_gain_pct": 294.72,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 3.8435,
+                        "historical_conversions": 41.82,
+                        "alpha": 26.508,
+                        "scaled_historical_spend": 5.3954,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 1.6813,
+                        "historical_conversions": 60.66,
+                        "alpha": 61.5025,
+                        "scaled_historical_spend": 2.3601,
+                        "optimized_spend": 0.5625,
+                        "expected_optimized_conversions": 27.45
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 1.1657,
+                        "historical_conversions": 32.79,
+                        "alpha": 42.4332,
+                        "scaled_historical_spend": 1.6364,
+                        "optimized_spend": 0.0781,
+                        "expected_optimized_conversions": 3.19
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 0.2166,
+                        "historical_conversions": 41.36,
+                        "alpha": 210.9557,
+                        "scaled_historical_spend": 0.3041,
+                        "optimized_spend": 4.3594,
+                        "expected_optimized_conversions": 354.16
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 0.2166,
+                        "historical_conversions": 128.36,
+                        "alpha": 654.6973,
+                        "scaled_historical_spend": 0.3041,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 1173.06
+                    }
+                ]
+            },
+            "Brand B": {
+                "brand": "Brand B",
+                "historical_spend_total": 6.1743,
+                "historical_conversions_total": 312.0,
+                "scaled_historical_conversions_total": 430.76,
+                "optimized_conversions_total": 5642.78,
+                "efficiency_gain_pct": 1209.97,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 1.6157,
+                        "historical_conversions": 38.14,
+                        "alpha": 39.6659,
+                        "scaled_historical_spend": 2.6168,
+                        "optimized_spend": 0.2009,
+                        "expected_optimized_conversions": 7.26
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.7383,
+                        "historical_conversions": 63.6,
+                        "alpha": 115.0283,
+                        "scaled_historical_spend": 1.1958,
+                        "optimized_spend": 2.4825,
+                        "expected_optimized_conversions": 143.53
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 0.9891,
+                        "historical_conversions": 32.0,
+                        "alpha": 46.5331,
+                        "scaled_historical_spend": 1.602,
+                        "optimized_spend": 0.4088,
+                        "expected_optimized_conversions": 15.95
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 0.0167,
+                        "historical_conversions": 49.67,
+                        "alpha": 2999.0179,
+                        "scaled_historical_spend": 0.027,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 5373.52
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 2.8145,
+                        "historical_conversions": 128.59,
+                        "alpha": 96.048,
+                        "scaled_historical_spend": 4.5584,
+                        "optimized_spend": 1.9078,
+                        "expected_optimized_conversions": 102.52
+                    }
+                ]
+            },
+            "Brand C": {
+                "brand": "Brand C",
+                "historical_spend_total": 8.4974,
+                "historical_conversions_total": 327.01,
+                "scaled_historical_conversions_total": 361.16,
+                "optimized_conversions_total": 391.87,
+                "efficiency_gain_pct": 8.51,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 1.1599,
+                        "historical_conversions": 43.82,
+                        "alpha": 56.9045,
+                        "scaled_historical_spend": 1.365,
+                        "optimized_spend": 1.488,
+                        "expected_optimized_conversions": 51.87
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.9752,
+                        "historical_conversions": 67.98,
+                        "alpha": 99.8722,
+                        "scaled_historical_spend": 1.1476,
+                        "optimized_spend": 3.3667,
+                        "expected_optimized_conversions": 147.21
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 0.9846,
+                        "historical_conversions": 37.38,
+                        "alpha": 54.5361,
+                        "scaled_historical_spend": 1.1587,
+                        "optimized_spend": 1.3845,
+                        "expected_optimized_conversions": 47.39
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 1.7627,
+                        "historical_conversions": 46.88,
+                        "alpha": 46.1323,
+                        "scaled_historical_spend": 2.0744,
+                        "optimized_spend": 1.017,
+                        "expected_optimized_conversions": 32.37
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 3.615,
+                        "historical_conversions": 130.95,
+                        "alpha": 85.6267,
+                        "scaled_historical_spend": 4.2542,
+                        "optimized_spend": 2.7438,
+                        "expected_optimized_conversions": 113.04
+                    }
+                ]
+            },
+            "Brand D": {
+                "brand": "Brand D",
+                "historical_spend_total": 7.2959,
+                "historical_conversions_total": 332.0,
+                "scaled_historical_conversions_total": 406.11,
+                "optimized_conversions_total": 487.02,
+                "efficiency_gain_pct": 19.93,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 1.1198,
+                        "historical_conversions": 42.19,
+                        "alpha": 56.1544,
+                        "scaled_historical_spend": 1.5348,
+                        "optimized_spend": 1.0515,
+                        "expected_optimized_conversions": 40.35
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 3.0788,
+                        "historical_conversions": 68.03,
+                        "alpha": 48.3923,
+                        "scaled_historical_spend": 4.2199,
+                        "optimized_spend": 0.7679,
+                        "expected_optimized_conversions": 27.57
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 0.4888,
+                        "historical_conversions": 35.84,
+                        "alpha": 90.0569,
+                        "scaled_historical_spend": 0.67,
+                        "optimized_spend": 2.2902,
+                        "expected_optimized_conversions": 107.25
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 1.1241,
+                        "historical_conversions": 50.98,
+                        "alpha": 67.6712,
+                        "scaled_historical_spend": 1.5407,
+                        "optimized_spend": 1.4723,
+                        "expected_optimized_conversions": 61.25
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 1.4844,
+                        "historical_conversions": 134.96,
+                        "alpha": 148.3026,
+                        "scaled_historical_spend": 2.0346,
+                        "optimized_spend": 4.4181,
+                        "expected_optimized_conversions": 250.59
+                    }
+                ]
+            },
+            "Brand E": {
+                "brand": "Brand E",
+                "historical_spend_total": 7.3681,
+                "historical_conversions_total": 351.99,
+                "scaled_historical_conversions_total": 445.8,
+                "optimized_conversions_total": 2923.14,
+                "efficiency_gain_pct": 555.71,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 3.3059,
+                        "historical_conversions": 48.37,
+                        "alpha": 33.1305,
+                        "scaled_historical_spend": 4.4868,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.4788,
+                        "historical_conversions": 74.36,
+                        "alpha": 190.0668,
+                        "scaled_historical_spend": 0.6498,
+                        "optimized_spend": 4.4581,
+                        "expected_optimized_conversions": 322.56
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 1.552,
+                        "historical_conversions": 40.51,
+                        "alpha": 43.2394,
+                        "scaled_historical_spend": 2.1064,
+                        "optimized_spend": 0.2415,
+                        "expected_optimized_conversions": 9.35
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 1.9292,
+                        "historical_conversions": 48.67,
+                        "alpha": 45.2858,
+                        "scaled_historical_spend": 2.6183,
+                        "optimized_spend": 0.3003,
+                        "expected_optimized_conversions": 11.89
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 0.1022,
+                        "historical_conversions": 140.08,
+                        "alpha": 1439.5501,
+                        "scaled_historical_spend": 0.1387,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 2579.33
+                    }
+                ]
+            },
+            "Brand F": {
+                "brand": "Brand F",
+                "historical_spend_total": 7.8227,
+                "historical_conversions_total": 339.99,
+                "scaled_historical_conversions_total": 405.13,
+                "optimized_conversions_total": 2607.78,
+                "efficiency_gain_pct": 543.68,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 0.1773,
+                        "historical_conversions": 46.27,
+                        "alpha": 283.476,
+                        "scaled_historical_spend": 0.2266,
+                        "optimized_spend": 3.6061,
+                        "expected_optimized_conversions": 432.98
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.0638,
+                        "historical_conversions": 70.63,
+                        "alpha": 1142.0043,
+                        "scaled_historical_spend": 0.0816,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 2046.2
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 2.8193,
+                        "historical_conversions": 35.36,
+                        "alpha": 26.3867,
+                        "scaled_historical_spend": 3.604,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 3.1957,
+                        "historical_conversions": 48.86,
+                        "alpha": 34.0711,
+                        "scaled_historical_spend": 4.0852,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 1.5666,
+                        "historical_conversions": 138.87,
+                        "alpha": 147.3293,
+                        "scaled_historical_spend": 2.0026,
+                        "optimized_spend": 1.3939,
+                        "expected_optimized_conversions": 128.61
+                    }
+                ]
+            },
+            "Brand G": {
+                "brand": "Brand G",
+                "historical_spend_total": 6.9138,
+                "historical_conversions_total": 327.01,
+                "scaled_historical_conversions_total": 417.47,
+                "optimized_conversions_total": 724.23,
+                "efficiency_gain_pct": 73.48,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 0.2682,
+                        "historical_conversions": 42.16,
+                        "alpha": 177.4421,
+                        "scaled_historical_spend": 0.3879,
+                        "optimized_spend": 3.6385,
+                        "expected_optimized_conversions": 272.26
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 3.0083,
+                        "historical_conversions": 63.11,
+                        "alpha": 45.4563,
+                        "scaled_historical_spend": 4.3512,
+                        "optimized_spend": 0.1883,
+                        "expected_optimized_conversions": 7.84
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 1.5138,
+                        "historical_conversions": 34.18,
+                        "alpha": 37.0798,
+                        "scaled_historical_spend": 2.1895,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 0.3397,
+                        "historical_conversions": 53.0,
+                        "alpha": 181.2302,
+                        "scaled_historical_spend": 0.4913,
+                        "optimized_spend": 3.7376,
+                        "expected_optimized_conversions": 281.91
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 1.7838,
+                        "historical_conversions": 134.56,
+                        "alpha": 131.4298,
+                        "scaled_historical_spend": 2.5801,
+                        "optimized_spend": 2.4357,
+                        "expected_optimized_conversions": 162.21
+                    }
+                ]
+            },
+            "Brand H": {
+                "brand": "Brand H",
+                "historical_spend_total": 6.1032,
+                "historical_conversions_total": 349.0,
+                "scaled_historical_conversions_total": 495.82,
+                "optimized_conversions_total": 890.58,
+                "efficiency_gain_pct": 79.62,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 2.9936,
+                        "historical_conversions": 43.92,
+                        "alpha": 31.7182,
+                        "scaled_historical_spend": 4.905,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.3735,
+                        "historical_conversions": 75.31,
+                        "alpha": 237.2998,
+                        "scaled_historical_spend": 0.612,
+                        "optimized_spend": 4.1816,
+                        "expected_optimized_conversions": 390.39
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 1.3547,
+                        "historical_conversions": 32.58,
+                        "alpha": 38.0424,
+                        "scaled_historical_spend": 2.2197,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 0.4659,
+                        "historical_conversions": 50.82,
+                        "alpha": 132.8734,
+                        "scaled_historical_spend": 0.7634,
+                        "optimized_spend": 1.9013,
+                        "expected_optimized_conversions": 141.53
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 0.9155,
+                        "historical_conversions": 146.37,
+                        "alpha": 225.192,
+                        "scaled_historical_spend": 1.5,
+                        "optimized_spend": 3.9171,
+                        "expected_optimized_conversions": 358.67
+                    }
+                ]
+            },
+            "Brand I": {
+                "brand": "Brand I",
+                "historical_spend_total": 7.64,
+                "historical_conversions_total": 329.0,
+                "scaled_historical_conversions_total": 390.63,
+                "optimized_conversions_total": 753.98,
+                "efficiency_gain_pct": 93.02,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 0.1524,
+                        "historical_conversions": 38.58,
+                        "alpha": 271.9837,
+                        "scaled_historical_spend": 0.1995,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 487.33
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 2.6043,
+                        "historical_conversions": 67.78,
+                        "alpha": 52.8653,
+                        "scaled_historical_spend": 3.4088,
+                        "optimized_spend": 0.6845,
+                        "expected_optimized_conversions": 27.57
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 1.1126,
+                        "historical_conversions": 32.87,
+                        "alpha": 43.9486,
+                        "scaled_historical_spend": 1.4563,
+                        "optimized_spend": 0.4003,
+                        "expected_optimized_conversions": 14.8
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 2.0915,
+                        "historical_conversions": 53.74,
+                        "alpha": 47.6141,
+                        "scaled_historical_spend": 2.7376,
+                        "optimized_spend": 0.5171,
+                        "expected_optimized_conversions": 19.85
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 1.6792,
+                        "historical_conversions": 136.03,
+                        "alpha": 138.0289,
+                        "scaled_historical_spend": 2.1979,
+                        "optimized_spend": 3.398,
+                        "expected_optimized_conversions": 204.44
+                    }
+                ]
+            },
+            "Brand J": {
+                "brand": "Brand J",
+                "historical_spend_total": 7.7937,
+                "historical_conversions_total": 319.99,
+                "scaled_historical_conversions_total": 386.7,
+                "optimized_conversions_total": 1525.6,
+                "efficiency_gain_pct": 294.52,
+                "allocations": [
+                    {
+                        "channel": "Instagram",
+                        "historical_spend": 6.021,
+                        "historical_conversions": 43.52,
+                        "alpha": 22.3305,
+                        "scaled_historical_spend": 7.7255,
+                        "optimized_spend": 0.0,
+                        "expected_optimized_conversions": 0.0
+                    },
+                    {
+                        "channel": "Google Search",
+                        "historical_spend": 0.2188,
+                        "historical_conversions": 65.22,
+                        "alpha": 329.6157,
+                        "scaled_historical_spend": 0.2807,
+                        "optimized_spend": 3.3443,
+                        "expected_optimized_conversions": 484.16
+                    },
+                    {
+                        "channel": "Influencer Networks",
+                        "historical_spend": 0.5152,
+                        "historical_conversions": 35.05,
+                        "alpha": 84.3466,
+                        "scaled_historical_spend": 0.661,
+                        "optimized_spend": 0.1116,
+                        "expected_optimized_conversions": 8.92
+                    },
+                    {
+                        "channel": "YouTube",
+                        "historical_spend": 0.1093,
+                        "historical_conversions": 49.34,
+                        "alpha": 475.6617,
+                        "scaled_historical_spend": 0.1402,
+                        "optimized_spend": 5.0,
+                        "expected_optimized_conversions": 852.27
+                    },
+                    {
+                        "channel": "E-commerce Marketplaces",
+                        "historical_spend": 0.9294,
+                        "historical_conversions": 126.86,
+                        "alpha": 193.0284,
+                        "scaled_historical_spend": 1.1925,
+                        "optimized_spend": 1.5441,
+                        "expected_optimized_conversions": 180.25
+                    }
+                ]
+            }
+        }
+    },
+    "persona_channel_matrix": {
+        "Budget Parents": {
+            "E-commerce Marketplaces": 1912,
+            "Google Search": 989,
+            "Influencer Networks": 387,
+            "Instagram": 493,
+            "YouTube": 694
+        },
+        "Deal Hunters": {
+            "E-commerce Marketplaces": 1856,
+            "Google Search": 937,
+            "Influencer Networks": 472,
+            "Instagram": 603,
+            "YouTube": 587
+        },
+        "Eco-conscious Shoppers": {
+            "E-commerce Marketplaces": 1460,
+            "Google Search": 831,
+            "Influencer Networks": 846,
+            "Instagram": 783,
+            "YouTube": 668
+        },
+        "Gen-Z Trendseekers": {
+            "E-commerce Marketplaces": 1157,
+            "Google Search": 788,
+            "Influencer Networks": 916,
+            "Instagram": 1194,
+            "YouTube": 872
+        },
+        "Suburban Parents": {
+            "E-commerce Marketplaces": 1648,
+            "Google Search": 975,
+            "Influencer Networks": 539,
+            "Instagram": 621,
+            "YouTube": 814
+        },
+        "Tech Savvy Professionals": {
+            "E-commerce Marketplaces": 1355,
+            "Google Search": 1198,
+            "Influencer Networks": 387,
+            "Instagram": 636,
+            "YouTube": 955
+        }
+    },
+    "meta": {
+        "channels": [
+            "Instagram",
+            "Google Search",
+            "Influencer Networks",
+            "YouTube",
+            "E-commerce Marketplaces"
+        ],
+        "brands": [
+            "Brand A",
+            "Brand B",
+            "Brand C",
+            "Brand D",
+            "Brand E",
+            "Brand F",
+            "Brand G",
+            "Brand H",
+            "Brand I",
+            "Brand J"
+        ],
+        "personas": [
+            "Gen-Z Trendseekers",
+            "Budget Parents",
+            "Tech Savvy Professionals",
+            "Deal Hunters",
+            "Eco-conscious Shoppers",
+            "Suburban Parents"
+        ]
+    }
+}

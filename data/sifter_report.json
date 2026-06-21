@@ -1,0 +1,29 @@
+{
+    "total_events": 32654,
+    "total_users": 10000,
+    "bot_users": 500,
+    "bot_events": 5081,
+    "capital_saved_crore": 1.0,
+    "savings_by_channel": {
+        "Instagram": {
+            "click_count": 1046,
+            "capital_saved_crore": 0.1046
+        },
+        "Google Search": {
+            "click_count": 1132,
+            "capital_saved_crore": 0.1698
+        },
+        "Influencer Networks": {
+            "click_count": 981,
+            "capital_saved_crore": 0.2943
+        },
+        "YouTube": {
+            "click_count": 983,
+            "capital_saved_crore": 0.1966
+        },
+        "E-commerce Marketplaces": {
+            "click_count": 939,
+            "capital_saved_crore": 0.2348
+        }
+    }
+}
